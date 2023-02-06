@@ -9,5 +9,4 @@ This is an implementation for Reinforcement learning in atari games. Both DQN an
 
 
 ## After training with Deep SARSA
-Deep SARSA
 ![Train wih Deep SARSA](https://user-images.githubusercontent.com/49214384/216966067-48b3fa63-41e2-4ee7-b100-675c6fd2fe49.gif)
