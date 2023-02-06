@@ -5,9 +5,7 @@ This is an implementation for Reinforcement learning in atari games. Both DQN an
 ![Before training](https://user-images.githubusercontent.com/49214384/216965955-187c2743-c680-4907-9a95-bacb452f236c.gif)
 
 ## After training
-<p align="center">
-<img alt="Learning to Communicate" src="[http://blog.yannisassael.com/wp-content/uploads/2016/09/switch_vis_768.jpg](https://user-images.githubus                 ercontent.com/49214384/216966048-850135d2-4bbb-42f4-beed-118d490ac3f6.gif)" />
-</p>
+![Train with DDQN](https://user-images.githubusercontent.com/49214384/216972988-674a1627-199f-4848-a95b-5fa087eb578e.gif)
 
 ![Train with DDQN]()
 Deep SARSA
