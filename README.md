@@ -1,6 +1,6 @@
 # Reinforcement Learning in Atari Games
 
-Welcome to my Bachelor's project on Reinforcement Learning (RL) applied to Atari games! 🎮 In this project, I explored the fascinating intersection of deep learning and RL by implementing SARSA and Q-Learning algorithms with deep neural networks.
+Welcome to my Bachelor's project on Reinforcement Learning (RL) applied to Atari games! 🎮 In this project, I explored the fascinating intersection of deep learning and RL by implementing SARSA and Q-Learning and Double Q-Learning algorithms with deep neural networks.
 
 ## Overview
 
