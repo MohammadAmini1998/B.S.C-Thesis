@@ -38,6 +38,30 @@ Where:
 - $\alpha$ is the learning rate.
 - $\gamma$ is the discount factor.
 - $s'$ is the next state.
+## Double Deep Q-Networks (Double DQN)
+
+In addition to SARSA and Q-Learning, this project also explores the concept of Double Deep Q-Networks (Double DQN). Double DQN is an enhancement to the original Deep Q-Network (DQN) algorithm introduced by DeepMind.
+
+### Overview
+
+Traditional DQN algorithms tend to overestimate Q-values, leading to suboptimal policies during training. Double DQN addresses this issue by decoupling action selection from value estimation, effectively reducing overestimation bias.
+
+The key idea behind Double DQN is to use one set of parameters to select actions (the "online" network) and another set to evaluate those actions (the "target" network). By periodically updating the target network's parameters to match those of the online network, Double DQN mitigates overestimation bias and improves training stability.
+
+The Double Q-Learning update equation is given by:
+
+\[ Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q\left(s', \arg\max_{a'} Q(s', a'; \theta_{\text{online}}); \theta_{\text{target}}\right) - Q(s, a) \right] \]
+
+Where:
+- \( Q(s, a) \) is the Q-value for state \( s \) and action \( a \).
+- \( r \) is the reward received after taking action \( a \) in state \( s \).
+- \( \alpha \) is the learning rate.
+- \( \gamma \) is the discount factor.
+- \( s' \) is the next state.
+### Benefits
+
+- **Reduced Overestimation Bias**: Double DQN reduces the tendency of traditional DQN algorithms to overestimate Q-values, resulting in more accurate value estimates and improved learning.
+- **Improved Training Stability**: By mitigating overestimation bias, Double DQN leads to more stable and reliable training, ultimately yielding better performance on challenging tasks.
 
 ## Methodology
 
