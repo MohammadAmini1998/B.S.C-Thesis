@@ -14,17 +14,15 @@ SARSA is an on-policy RL algorithm that learns to estimate the Q-values of state
 
 The SARSA update equation is given by:
 
-$\
-Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q(s', a') - Q(s, a) \right]
-\$
+$\Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q(s', a') - Q(s, a) \right]\$
 
 Where:
-- $\( Q(s, a) \) is the Q-value for state \( s \) and action \( a \)$.
-- $\( r \) is the reward received after taking action \( a \) in state \( s \)$.
-- $\( \alpha \) is the learning rate$.
-- $\( \gamma \) is the discount factor$.
-- $\( s' \) is the next state$.
-- $\( a' \) is the next action$.
+- $\( Q(s, a) \)$ is the Q-value for state $\( s \)$ and action $\( a \)$.
+- $\( r \)$ is the reward received after taking action $\( a \)$ in state $\( s \)$.
+- $\( \alpha \)$ is the learning rate.
+- $\( \gamma \)$ is the discount factor.
+- $\( s' \)$ is the next state.
+- $\( a' \)$ is the next action.
 
 ### Q-Learning
 
