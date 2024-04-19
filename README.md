@@ -75,17 +75,7 @@ This project draws inspiration from the seminal paper ["Playing Atari with Deep 
 
 ## Usage
 
-To replicate or extend this project, follow these steps:
-
-1. **Environment Setup**: Set up a Python environment with necessary dependencies, including OpenAI Gym and TensorFlow or PyTorch.
-   
-2. **Data Preprocessing**: Implement CNN-based preprocessing to extract features from Atari game frames.
-   
-3. **Algorithm Implementation**: Implement SARSA and/or Q-Learning algorithms with deep neural networks using your preferred deep learning framework.
-   
-4. **Training**: Train the agents on Atari games by interacting with the environment and updating Q-values based on observed rewards.
-   
-5. **Evaluation**: Evaluate the trained agents' performance on various Atari games, analyzing their gameplay and score achievements.
+To replicate or extend this project, follow these steps simply clone the project and run main.py.
 
 ## Contributions and Feedback
 
