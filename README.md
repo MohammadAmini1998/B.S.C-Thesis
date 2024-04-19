@@ -48,10 +48,10 @@ The key idea behind Double DQN is to use one set of parameters to select actions
 
 The Double Q-Learning update equation is given by:
 
-$ Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q\left(s', \arg\max_{a'} Q(s', a'; \theta_{\text{online}}); \theta_{\text{target}}\right) - Q(s, a) \right] $
+$\ Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q\left(s', \arg\max_{a'} Q(s', a'; \theta_{\text{online}}); \theta_{\text{target}}\right) - Q(s, a) \right] \$
 
 Where:
-- $ Q(s, a) $ is the Q-value for state $ s $ and action $ a $.
+- $Q(s, a)$ is the Q-value for state $ s $ and action $ a $.
 - $ r $ is the reward received after taking action $ a $ in state $ s $.
 - $ \alpha $ is the learning rate.
 - $ \gamma $ is the discount factor.
