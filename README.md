@@ -38,11 +38,9 @@ Where:
 - $\alpha$ is the learning rate.
 - $\gamma$ is the discount factor.
 - $s'$ is the next state.
-## Double Deep Q-Networks (Double DQN)
+### Double Deep Q-Networks (Double DQN)
 
 In addition to SARSA and Q-Learning, this project also explores the concept of Double Deep Q-Networks (Double DQN). Double DQN is an enhancement to the original Deep Q-Network (DQN) algorithm introduced by DeepMind.
-
-### Overview
 
 Traditional DQN algorithms tend to overestimate Q-values, leading to suboptimal policies during training. Double DQN addresses this issue by decoupling action selection from value estimation, effectively reducing overestimation bias.
 
