@@ -82,6 +82,7 @@ The performance of the SARSA, DQN, and Double DQN algorithms was evaluated on th
 - **Deep SARSA**: While Deep SARSA showed promising results, it was outperformed by Double DQN. However, it demonstrated competitive performance and could be further optimized for better results in future experiments.
   
 - **DQN**: The original DQN algorithm also showed reasonable performance, but it lagged behind Double DQN and Deep SARSA in terms of learning speed and final performance on the Pong environment.
+### Simulation's result
 ![reward](https://github.com/MohammadAmini1998/B.S.C-Thesis/assets/49214384/936082eb-5a7e-459c-81e7-8922b2dde5db)
 
 
