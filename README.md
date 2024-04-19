@@ -52,10 +52,10 @@ $\ Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q\left(s', \arg\max_{a'
 
 Where:
 - $Q(s, a)$ is the Q-value for state $ s $ and action $ a $.
-- $ r $ is the reward received after taking action $ a $ in state $ s $.
-- $ \alpha $ is the learning rate.
-- $ \gamma $ is the discount factor.
-- $ s' $ is the next state.
+- $r$ is the reward received after taking action $a$ in state $s$.
+- $\alpha$ is the learning rate.
+- $\gamma$ is the discount factor.
+- $s'$ is the next state.
 ### Benefits
 
 - **Reduced Overestimation Bias**: Double DQN reduces the tendency of traditional DQN algorithms to overestimate Q-values, resulting in more accurate value estimates and improved learning.
