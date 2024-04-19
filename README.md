@@ -14,7 +14,9 @@ SARSA is an on-policy RL algorithm that learns to estimate the Q-values of state
 
 The SARSA update equation is given by:
 
-\[ Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q(s', a') - Q(s, a) \right] \]
+\[
+Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma Q(s', a') - Q(s, a) \right]
+\]
 
 Where:
 - \( Q(s, a) \) is the Q-value for state \( s \) and action \( a \).
