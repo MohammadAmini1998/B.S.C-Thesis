@@ -69,13 +69,15 @@ Where:
 
 3. **Evaluation**: The trained agents were evaluated on their performance in various Atari games, assessing their ability to achieve high scores and exhibit proficient gameplay.
 
+## Result
+
 ## Implementation Inspiration
 
 This project draws inspiration from the seminal paper ["Playing Atari with Deep Reinforcement Learning"](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) by Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller. The methods and techniques presented in the paper served as the foundation for this implementation.
 
 ## Usage
 
-To replicate or extend this project, follow these steps simply clone the project and run main.py.
+To replicate or extend this project, simply clone the project and run main.py.
 
 ## Contributions and Feedback
 
