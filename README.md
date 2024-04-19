@@ -67,9 +67,22 @@ Where:
    
 2. **Training**: The preprocessed features were then used as inputs to the SARSA and Q-Learning algorithms, which were trained to maximize cumulative rewards over episodes of gameplay.
 
-3. **Evaluation**: The trained agents were evaluated on their performance in various Atari games, assessing their ability to achieve high scores and exhibit proficient gameplay.
+3. **Evaluation**: The trained agents were evaluated on their performance in Pong Atari games, assessing their ability to achieve high scores and exhibit proficient gameplay. Please note that the algorithms can be applied in any environment.
 
-## Result
+## Results
+
+### Performance Comparison
+
+The performance of the SARSA, DQN, and Double DQN algorithms was evaluated on the Pong environment. After extensive testing, it was observed that Double DQN outperformed both Deep SARSA and DQN in terms of learning efficiency and final performance metrics.
+
+### Observations
+
+- **Double DQN**: The Double DQN algorithm exhibited superior performance compared to Deep SARSA and DQN. It achieved higher scores and learned more efficiently, showcasing its effectiveness in learning complex strategies for playing the Pong game.
+  
+- **Deep SARSA**: While Deep SARSA showed promising results, it was outperformed by Double DQN. However, it demonstrated competitive performance and could be further optimized for better results in future experiments.
+  
+- **DQN**: The original DQN algorithm also showed reasonable performance, but it lagged behind Double DQN and Deep SARSA in terms of learning speed and final performance on the Pong environment.
+
 
 ## Implementation Inspiration
 
